@@ -1,3 +1,25 @@
-h1 > title {
-  text-align: center;
+
+body {
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+aside {
+  background-color: #a2b4da;
+}
+
+main {
+  background-color: #f3dba8;
+}
+
+footer {
+  background-color: #a2cbb6;
+}
+
+.flex-ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

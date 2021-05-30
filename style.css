@@ -1,25 +1,134 @@
 
-body {
-  display: grid;
-  height: 100vh;
-  margin: 0;
-  font-family: Helvetica;
+nav {
+  display: flex;
+  flex-direction: row; /* default */
+  justify-content: flex-start; /* default */
+  height: 40px;
+  background-color: #a2cbb6;
+  font-family: Avenir, Heveltica, Arial, san-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin: auto;
 }
 
-aside {
-  background-color: #a2b4da;
+.DAIX {
+  margin-left: 0.25em;
+  color: blue;
+}
+
+
+h1 {
+  font-family: Avenir, Heveltica, Arial, san-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+nav > div:last-child {
+  margin-left: auto;
 }
 
 main {
-  background-color: #f3dba8;
+text-align: center;
 }
 
-footer {
-  background-color: #a2cbb6;
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(175px,1fr));
+  grid-gap: 0.5rem;
 }
 
-.flex-ctr {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+bt {
+  display: grid;
+  width: 200px;
+  grid-auto-flow: row;
+  margin-left: 50%;
+  margin-top: 2%;
+}
+
+.form-group-human {
+  color: blue;
+  font-family: Avenir, Heveltica, Arial, san-serif;
+  margin-left: 90%;
+}
+
+.form-group-satoshi {
+  color: blue;
+  font-family: Avenir, Heveltica, Arial, san-serif;
+  margin-left: 5%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: white;
+  font-family: Avenir, Heveltica, Arial, san-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+li {
+  padding: 1em;
+  background: #F9423A;
+}
+li:nth-child(2),
+li:nth-child(6){
+  background: #444;
+/*   grid-column: 1/2; */
+}
+li:nth-child(8),
+li:nth-child(10){
+  background: #4794B8;
+}
+
+ul#currencies li.BTC {
+  background: #3C75C3 url('images/BTC.png') no-repeat;
+  background-position: 7px center;
+}
+
+ul#currencies li.ETH {
+  background: #3C75C3 url('images/ETH.png') no-repeat;
+  background-position: 7px center;
+}
+
+ul#currencies li.XRP {
+  background: #3C75C3 url('images/XRP.png') no-repeat;
+  background-position: 7px center;
+}
+
+ul#currencies li.BNB {
+  background: #3C75C3 url('images/BNB.png') no-repeat;
+  background-position: 7px center;
+}
+
+ul#currencies li.DOGE {
+  background: #3C75C3 url('images/DOGE.png') no-repeat;
+  background-position: 7px center;
+}
+
+ul#currencies li.DOT {
+  background: #3C75C3 url('images/DOT.png') no-repeat;
+  background-position: 7px center;
+}
+
+ul#currencies li.LINK {
+  background: #3C75C3 url('images/LINK.png') no-repeat;
+  background-position: 7px center;
+}
+
+ul#currencies li.UNI {
+  background: #3C75C3 url('images/UNI.png') no-repeat;
+  background-position: 7px center;
+}
+
+ul#currencies li.XLM {
+  background: #3C75C3 url('images/XLM.png') no-repeat;
+  background-position: 7px center;
+}
+
+ul#currencies li.ADA {
+  background: #3C75C3 url('images/ADA.png') no-repeat;
+  background-position: 7px center;
 }

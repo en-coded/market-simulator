@@ -48,6 +48,18 @@ bt {
   margin-top: 2%;
 }
 
+formdec {
+  display: grid;
+}
+
+satoshi {
+  grid-column: 1 / 2;
+}
+
+human {
+  grid-column: 2 / 2;
+}
+
 .form-group-human {
   color: blue;
   font-family: Avenir, Heveltica, Arial, san-serif;
@@ -59,6 +71,7 @@ bt {
   font-family: Avenir, Heveltica, Arial, san-serif;
   margin-left: 5%;
 }
+
 
 ul {
   margin: 0;

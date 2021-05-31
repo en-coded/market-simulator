@@ -32,65 +32,72 @@
 
    </main>
 
-   <bt>
-     <button onclick="H_VALUE()">PLAY</button>
-   </bt>
-   <p id="portfolio"></p>
+<button onclick="H_VALUE(); S_VALUE();" class="button">Let's Trade</button>
 
 <formdec>
 
   <! Declaration of input boxes for Satoshi >
   <sathoshi>
 
+    <div class="form-group-satoshi">
+      <h2>Sathoshi's Portfolio</h2>
+    </div>
+
    <div class="form-group-satoshi">
      <label for="SBTC">BTC:</label>
-     <input type="number" id="SBTC" value="0" min="0" max="100">
+     <input type="number" id="SBTC" value="20" min="0" max="100" disabled = true>
    </div>
 
    <div class="form-group-satoshi">
      <label for="SETH">ETH:</label>
-     <input type="number" id="SETH" value="0" min="0" max="100">
+     <input type="number" id="SETH" value="20" min="0" max="100" disabled = true>
    </div>
 
    <div class="form-group-satoshi">
      <label for="SXRP">XRP:</label>
-     <input type="number" id="SXRP" value="0" min="0" max="100">
+     <input type="number" id="SXRP" value="5" min="0" max="100" disabled = true>
    </div>
 
    <div class="form-group-satoshi">
      <label for="SBNB">BNB:</label>
-     <input type="number" id="SBNB" value="0" min="0" max="100">
+     <input type="number" id="SBNB" value="10" min="0" max="100" disabled = true>
    </div>
 
    <div class="form-group-satoshi">
      <label for="SDOGE">DOGE:</label>
-     <input type="number" id="SDOGE" value="0" min="0" max="100">
+     <input type="number" id="SDOGE" value="2" min="0" max="100" disabled = true>
    </div>
 
    <div class="form-group-satoshi">
      <label for="SDOT">DOT:</label>
-     <input type="number" id="SDOT" value="0" min="0" max="100">
+     <input type="number" id="SDOT" value="8" min="0" max="100" disabled = true>
    </div>
 
    <div class="form-group-satoshi">
      <label for="SLINK">LINK:</label>
-     <input type="number" id="SLINK" value="0" min="0" max="100">
+     <input type="number" id="SLINK" value="5" min="0" max="100" disabled = true>
    </div>
 
    <div class="form-group-satoshi">
      <label for="SUNI">UNI:</label>
-     <input type="number" id="SUNI" value="0" min="0" max="100">
+     <input type="number" id="SUNI" value="10" min="0" max="100" disabled = true>
    </div>
 
    <div class="form-group-satoshi">
      <label for="SXLM">XLM:</label>
-     <input type="number" id="SXLM" value="0" min="0" max="100">
+     <input type="number" id="SXLM" value="10" min="0" max="100" disabled = true>
    </div>
 
    <div class="form-group-satoshi">
      <label for="SADA">ADA:</label>
-     <input type="number" id="SADA" value="0" min="0" max="100">
+     <input type="number" id="SADA" value="10" min="0" max="100" disabled = true>
    </div>
+
+   <div class="form-group-satoshi">
+     <h2>Initial Portfolio: $10,000</h2>
+   </div>
+
+   <p class="form-group-satoshi" id="sportfolio"></p>
 
   <! End of declaration of input boxes for Satoshi >
 
@@ -98,6 +105,11 @@
 
 <human>
 <! Declaration of input boxes for human >
+
+
+ <div class="form-group-human">
+   <h2>Portfolio % allocation</h2>
+ </div>
 
  <div class="form-group-human">
    <label for="HBTC">BTC:</label>
@@ -149,6 +161,12 @@
    <input type="number" id="HADA" value="0" min="0" max="100">
  </div>
 
+ <div class="form-group-human">
+   <h2>Initial Portfolio: $10,000</h2>
+ </div>
+
+ <p class="form-group-human" id="hportfolio"></p>
+ 
 <! End of declaration of input boxes for human >
 </human>
 

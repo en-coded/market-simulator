@@ -3,7 +3,7 @@ nav {
   display: flex;
   flex-direction: row; /* default */
   justify-content: flex-start; /* default */
-  height: 40px;
+  height: 25px;
   background-color: #a2cbb6;
   font-family: Avenir, Heveltica, Arial, san-serif;
   font-weight: bold;
@@ -23,6 +23,14 @@ h1 {
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
+}
+
+h2 {
+  font-family: Avenir, Heveltica, Arial, san-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: underline;
+
 }
 
 nav > div:last-child {
@@ -107,7 +115,19 @@ human {
   margin-left: 5%;
 }
 
+.form-post-trade {
+  color: blue;
+  font-family: Avenir, Heveltica, Arial, san-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
 
+h3 {
+  color: blue;
+  font-family: Avenir, Heveltica, Arial, san-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
 ul {
   margin: 0;
   padding: 0;

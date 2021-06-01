@@ -99,6 +99,9 @@ var HCASH = 10000 - HBTC - HETH - HXRP - HBNB - HDOGE - HDOT - HLINK - HUNI - HX
 var HPORT_VALUE = btc_risk_val * HBTC + eth_risk_val * HETH + xrp_risk_val * HXRP + bnb_risk_val * HBNB + doge_risk_val * HDOGE + dot_risk_val * HDOT + link_risk_val * HLINK + uni_risk_val * HUNI + xlm_risk_val * HXLM + ada_risk_val * HADA + HCASH;
 var HPORT_VALUE1 = HPORT_VALUE.toFixed(2);
 document.getElementById("hportfolio").innerHTML = "$" + HPORT_VALUE1;
+var HPORT_VALUE2 = (((HPORT_VALUE1 - 10000) / 10000) * 100);
+var HPORT_VALUE3 = HPORT_VALUE2.toFixed(2);
+document.getElementById("hgl").innerHTML =  HPORT_VALUE3 + "%";
 // End of Human Crypto Portfolio
 
 // Satoshi Crypto Portfolio
@@ -126,6 +129,9 @@ var SCASH = 10000 - SBTC - SETH - SXRP - SBNB - SDOGE - SDOT - SLINK - SUNI - SX
 var SPORT_VALUE = btc_risk_val * SBTC + eth_risk_val * SETH + xrp_risk_val * SXRP + bnb_risk_val * SBNB + doge_risk_val * SDOGE + dot_risk_val * SDOT + link_risk_val * SLINK + uni_risk_val * SUNI + xlm_risk_val * SXLM + ada_risk_val * SADA + SCASH;
 var SPORT_VALUE1 = SPORT_VALUE.toFixed(2);
 document.getElementById("sportfolio").innerHTML = "$" + SPORT_VALUE1;
+var SPORT_VALUE2 = ((SPORT_VALUE1 - 10000) / 10000 * 100);
+var SPORT_VALUE3 = SPORT_VALUE2.toFixed(2);
+document.getElementById("sgl").innerHTML =  SPORT_VALUE3 + "%";
 // End of Satoshi Crypto Portfolio
 
 //Compare Portfolios

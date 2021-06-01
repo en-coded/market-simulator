@@ -98,6 +98,14 @@ human {
   font-size: 0.75rem;
   margin-left: 60%;
 }
+
+.form-group-satoshi {
+  color: blue;
+  font-family: Avenir, Heveltica, Arial, san-serif;
+  font-size: 0.75rem;
+  margin-left: 5%;
+}
+
 .results {
   margin-left: 47%;
   font-family: Avenir, Heveltica, Arial, san-serif;
@@ -108,12 +116,7 @@ human {
   align-self: center;
   align-content: center;
 }
-.form-group-satoshi {
-  color: blue;
-  font-family: Avenir, Heveltica, Arial, san-serif;
-  font-size: 0.75rem;
-  margin-left: 5%;
-}
+
 
 .form-post-trade {
   color: blue;

@@ -3,13 +3,13 @@ nav {
   display: flex;
   flex-direction: row; /* default */
   justify-content: flex-start; /* default */
-  height: 25px;
+  height: 20px;
   background-color: #a2cbb6;
   font-family: Avenir, Heveltica, Arial, san-serif;
   font-weight: bold;
   font-size: 1rem;
-  padding: 10px;
-  margin: auto;
+  padding: 5px;
+
 }
 
 .DAIX {

@@ -34,44 +34,35 @@ text-align: center;
 }
 
 
-ul {
+ul#currencies{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(175px,1fr));
   grid-gap: 0.5rem;
 }
 
-bt {
+ul#price{
   display: grid;
-  width: 200px;
-
-  margin-left: 50%;
-  margin-top: 2%;
+  grid-template-columns: repeat(auto-fill, minmax(175px,1fr));
+  grid-gap: 0.5rem;
   color: blue;
-  background-color: #4CAF50; /* Green */
-    border: none;
-
-    text-align: center;
-    text-decoration: none;
-
-    font-size: 16px;
 }
 
 .button {
   background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 5px 15px;
+  padding: 2px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 4px 2px;
+  margin: 2px 2px;
   cursor: pointer;
   font-family: Avenir, Heveltica, Arial, san-serif;
   font-weight: bold;
   font-size: 2.5rem;
   text-align: center;
   margin-left: 45%;
-  margin-top: 5%;
+
   border-radius: 6px;
 }
 
@@ -96,7 +87,7 @@ human {
 .form-group-human {
   color: blue;
   font-family: Avenir, Heveltica, Arial, san-serif;
-  margin-left: 70%;
+  margin-left: 60%;
 }
 
 .form-group-satoshi {
@@ -115,18 +106,15 @@ ul {
   font-weight: bold;
   font-size: 1.2rem;
 }
+
 li {
   padding: 1em;
-  background: #F9423A;
+  background: white;
 }
-li:nth-child(2),
-li:nth-child(6){
-  background: #444;
-/*   grid-column: 1/2; */
-}
-li:nth-child(8),
-li:nth-child(10){
-  background: #4794B8;
+
+li.price {
+  padding: 0em;
+  background: white;
 }
 
 ul#currencies li.BTC {

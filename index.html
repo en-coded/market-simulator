@@ -17,6 +17,7 @@
     </nav>
     <main>
     <h1 id="title" class="main-title">Satoshi vs Human</h1>
+
       <ul id="currencies">
           <li class="BTC">BTC</li>
           <li class="ETH">ETH</li>
@@ -30,9 +31,22 @@
           <li class="ADA">ADA</li>
      </ul>
 
+     <ul id="price">
+       <li class="price">
+         <p id="BTCPR">$42,000</p>
+       </li>
+
+       <li class="price">
+         <p id="ETHPR">$2,000</p>
+       </li>
+
+     </ul>
+
    </main>
 
-<button onclick="H_VALUE(); S_VALUE();" class="button">Let's Trade</button>
+<button onclick="portfolio()" class="button">Let's Trade</button>
+
+<p class="results" id="results"></p>
 
 <formdec>
 
@@ -40,7 +54,7 @@
   <sathoshi>
 
     <div class="form-group-satoshi">
-      <h2>Sathoshi's Portfolio</h2>
+      <h2>Satoshi's Portfolio % Allocation</h2>
     </div>
 
    <div class="form-group-satoshi">
@@ -97,7 +111,14 @@
      <h2>Initial Portfolio: $10,000</h2>
    </div>
 
-   <p class="form-group-satoshi" id="sportfolio"></p>
+   <div class="form-group-satoshi">
+     <h2>Post-Trade Portfolio:</h2>
+     <p class="form-group-satoshi" id="sportfolio"></p>
+   </div>
+
+   <div class="form-group-satoshi">
+     <h2>Gain/Loss:</h2>
+   </div>
 
   <! End of declaration of input boxes for Satoshi >
 
@@ -108,7 +129,7 @@
 
 
  <div class="form-group-human">
-   <h2>Portfolio % allocation</h2>
+   <h2>Your Portfolio % Allocation</h2>
  </div>
 
  <div class="form-group-human">
@@ -165,9 +186,19 @@
    <h2>Initial Portfolio: $10,000</h2>
  </div>
 
- <p class="form-group-human" id="hportfolio"></p>
- 
+ <div class="form-group-human">
+   <h2>Post-Trade Portfolio:</h2>
+   <p class="form-group-human" id="hportfolio"></p>
+ </div>
+
+ <div class="form-group-human">
+   <h2>Gain/Loss:</h2>
+ </div>
+
+
+
 <! End of declaration of input boxes for human >
+
 </human>
 
 </formdec>

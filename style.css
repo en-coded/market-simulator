@@ -7,7 +7,7 @@ nav {
   background-color: #a2cbb6;
   font-family: Avenir, Heveltica, Arial, san-serif;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 10px;
   margin: auto;
 }
@@ -21,7 +21,7 @@ nav {
 h1 {
   font-family: Avenir, Heveltica, Arial, san-serif;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -87,12 +87,23 @@ human {
 .form-group-human {
   color: blue;
   font-family: Avenir, Heveltica, Arial, san-serif;
+  font-size: 0.75rem;
   margin-left: 60%;
 }
-
+.results {
+  margin-left: 47%;
+  font-family: Avenir, Heveltica, Arial, san-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: orange;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
 .form-group-satoshi {
   color: blue;
   font-family: Avenir, Heveltica, Arial, san-serif;
+  font-size: 0.75rem;
   margin-left: 5%;
 }
 
